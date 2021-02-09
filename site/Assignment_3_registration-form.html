@@ -18,12 +18,21 @@ Course :
 </label>
 <select>
 <option value="Course">Course</option>
-<option value="BCA">BCA</option>
-<option value="BBA">BBA</option>
 <option value="B.Tech">B.Tech</option>
-<option value="MBA">MBA</option>
-<option value="MCA">MCA</option>
-<option value="M.Tech">M.Tech</option>
+</select>
+<label>
+Sem:
+</label>
+<select>
+<option value="Select">Select</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
 </select>
 <br>
 <br>
@@ -33,11 +42,6 @@ Branch :
 <select>
 <option value="Select">Select</option>
 <option value="ECE">ECE</option>
-<option value="EEE">EEE</option>
-<option value="CSE">CSE</option>
-<option value="MME">MME</option>
-<option value="CE">CE</option>
-<option value="ME">ME</option>
 </select>
 <br>
 <br>
@@ -63,12 +67,73 @@ Gender :
 Phone :
 </label>
 <input type="text" name="country code"  value="+91" size="2"/>
-<input type="text" name="phone" size="10"/> <br> <br>
-<label>Address:</label>
-<br>
-<textarea cols="80" rows="5" value="address">
-</textarea>
-<br> <br>
+<input type="text" name="phone" size="10"/> <br><br>
+<table align=center border="1" width=100% cellspacing=1>
+<tr>
+<th>Course ID</th>
+<th>Course Name</th>
+<th>Credit</th>
+<th>Type</th>
+<th>Select</th>
+</tr>
+<tr>
+  <td>EC351</td>
+  <td>DATA NETWORKS</td>
+  <td>3</td>
+  <td>THEORY</td>
+  <td><input type="checkbox" align="center"></td>
+</tr>
+<tr>
+  <td>EC352</td>
+  <td>DIGITAL SIGNAL PROCESSING</td>
+  <td>3</td>
+  <td>THEORY</td>
+  <td><input type="checkbox" align="center"></td>
+</tr>
+<tr>
+  <td>EC353</td>
+  <td>EMBEDDED AND REAL TIME OPERATING SYSTEMS</td>
+  <td>3</td>
+  <td>THEORY</td>
+  <td><input type="checkbox" align="center"></td>
+</tr>
+<tr>
+<td>EC354</td>
+<td>INFORMATION THEORY AND CODING</td>
+<td>3</td>
+<td>THEORY</td>
+<td><input type="checkbox" align="center"></td>
+</tr>
+<tr>
+<td>EC3564</td>
+<td>WEB TECHNOLOGIES</td>
+<td>3</td>
+<td>THEORY</td>
+<td><input type="checkbox" align="center"></td>
+</tr>
+<tr>
+<td>EC357</td>
+<td>COMMUNICATION SYSTEMS LAB</td>
+<td>2</td>
+<td>LAB</td>
+<td><input type="checkbox" align="center"></td>
+</tr>
+<tr>
+<td>EC358</td>
+<td>DATA NETWORKS LAB</td>
+<td>2</td>
+<td>LAB</td>
+<td><input type="checkbox" align="center"></td>
+</tr>
+<tr>
+  <td>ME390</td>
+  <td>AUTOMOTIVE MECHANICS</td>
+  <td>3</td>
+  <td>THEORY</td>
+  <td><input type="checkbox" align="center"></td>	
+</tr>
+</table><br><br>
+<button type="button" name="button" align="center" >Submit</button>
 </form>
 </fieldset>
   </body>
