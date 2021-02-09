@@ -4,16 +4,15 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body bgcolor="cyan">
+    <fieldset>
     <form>
-
-<label> Firstname </label>
+      <h1>REGISTRATION FORM FOR THE ODD SEM 2021</h1>
+      <hr class="rounded" color=red>
+<label> First Name : </label>
 <input type="text" name="firstname" size="15"/> <br> <br>
-<label> Middlename: </label>
-<input type="text" name="middlename" size="15"/> <br> <br>
-<label> Lastname: </label>
+<label> Last Name : </label>
 <input type="text" name="lastname" size="15"/> <br> <br>
-
 <label>
 Course :
 </label>
@@ -26,37 +25,51 @@ Course :
 <option value="MCA">MCA</option>
 <option value="M.Tech">M.Tech</option>
 </select>
-
 <br>
 <br>
 <label>
+Branch :
+</label>
+<select>
+<option value="Select">Select</option>
+<option value="ECE">ECE</option>
+<option value="EEE">EEE</option>
+<option value="CSE">CSE</option>
+<option value="MME">MME</option>
+<option value="CE">CE</option>
+<option value="ME">ME</option>
+</select>
+<br>
+<br>
+<label>
+Roll Number :
+</label>
+<input type="text" name="Roll_no" size="6"/>
+<br><br>
+<label>
+Registration Number :
+</label>
+<input type="text" name="Roll_no" size="6"/>
+<br><br>
+<label>
 Gender :
 </label><br>
-<input type="radio" name="male"/> Male <br>
+<input type="radio" name="male"/> Male
 <input type="radio" name="female"/> Female <br>
 <input type="radio" name="other"/> Other
 <br>
 <br>
-
 <label>
 Phone :
 </label>
 <input type="text" name="country code"  value="+91" size="2"/>
 <input type="text" name="phone" size="10"/> <br> <br>
-Address
+<label>Address:</label>
 <br>
 <textarea cols="80" rows="5" value="address">
 </textarea>
 <br> <br>
-Email:
-<input type="email" id="email" name="email"/> <br>
-<br> <br>
-Password:
-<input type="Password" id="pass" name="pass"> <br>
-<br> <br>
-Re-type password:
-<input type="Password" id="repass" name="repass"> <br> <br>
-<input type="button" value="Submit"/>
-</form>  
+</form>
+</fieldset>
   </body>
 </html>
