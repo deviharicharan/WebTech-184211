@@ -9,130 +9,138 @@
     <form>
       <h1 align=center>REGISTRATION FORM 2021</h1>
       <hr class="rounded" color=red>
-<label> First Name : </label>
-<input type="text" name="firstname" size="15"/> <br> <br>
-<label> Last Name : </label>
-<input type="text" name="lastname" size="15"/> <br> <br>
-<label>
-Course :
-</label>
-<select>
-<option value="Course">Course</option>
-<option value="B.Tech">B.Tech</option>
-</select>
-<label>
-Sem:
-</label>
-<select>
-<option value="Select">Select</option>
-<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-<option value="6">6</option>
-<option value="7">7</option>
-<option value="8">8</option>
-</select>
+    <br>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label> First Name : </label>
+        <input type="text" name="firstname" size="15"/> <br> <br>
+        <label> Last Name : </label>
+        <input type="text" name="lastname" size="15"/> <br> <br>
+        <label>
+        Course :
+        </label>
+        <select>
+        <option value="Course">Course</option>
+        <option value="B.Tech">B.Tech</option>
+        </select>
+        <label>
+        Sem:
+        </label>
+        <select>
+        <option value="Select">Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        </select>
+        <br>
+        <br>
+        <label>
+        Branch :
+        </label>
+        <select>
+        <option value="Select">Select</option>
+        <option value="ECE">ECE</option>
+        </select>
+        <br>
+        <br>
+        <label>
+        Roll Number :
+        </label>
+        <input type="text" name="Roll_no" size="6"/>
+        <br><br>
+        <label>
+        Registration Number :
+        </label>
+        <input type="text" name="Roll_no" size="6"/>
+        <br><br>
+        <label>
+        Gender :
+        </label><br>
+        <input type="radio" name="male"/> Male
+        <input type="radio" name="female"/> Female <br>
+        <input type="radio" name="other"/> Other
+        <br>
+        <br>
+        <label>
+        Phone :
+        </label>
+        <input type="text" name="country code"  value="+91" size="2"/>
+        <input type="text" name="phone" size="10"/> <br><br>
+      </fieldset><br>
+      <fieldset>
+        <legend>Subjects</legend>
+        <table align=center border="1" width=75% cellspacing=1>
+        <tr>
+        <th>Course ID</th>
+        <th>Course Name</th>
+        <th>Credit</th>
+        <th>Type</th>
+        <th>Select</th>
+        </tr>
+        <tr>
+          <td>EC351</td>
+          <td>DATA NETWORKS</td>
+          <td>3</td>
+          <td>THEORY</td>
+          <td><input type="checkbox" align="center"></td>
+        </tr>
+        <tr>
+          <td>EC352</td>
+          <td>DIGITAL SIGNAL PROCESSING</td>
+          <td>3</td>
+          <td>THEORY</td>
+          <td><input type="checkbox" align="center"></td>
+        </tr>
+        <tr>
+          <td>EC353</td>
+          <td>EMBEDDED AND REAL TIME OPERATING SYSTEMS</td>
+          <td>3</td>
+          <td>THEORY</td>
+          <td><input type="checkbox" align="center"></td>
+        </tr>
+        <tr>
+        <td>EC354</td>
+        <td>INFORMATION THEORY AND CODING</td>
+        <td>3</td>
+        <td>THEORY</td>
+        <td><input type="checkbox" align="center"></td>
+        </tr>
+        <tr>
+        <td>EC3564</td>
+        <td>WEB TECHNOLOGIES</td>
+        <td>3</td>
+        <td>THEORY</td>
+        <td><input type="checkbox" align="center"></td>
+        </tr>
+        <tr>
+        <td>EC357</td>
+        <td>COMMUNICATION SYSTEMS LAB</td>
+        <td>2</td>
+        <td>LAB</td>
+        <td><input type="checkbox" align="center"></td>
+        </tr>
+        <tr>
+        <td>EC358</td>
+        <td>DATA NETWORKS LAB</td>
+        <td>2</td>
+        <td>LAB</td>
+        <td><input type="checkbox" align="center"></td>
+        </tr>
+        <tr>
+          <td>ME390</td>
+          <td>AUTOMOTIVE MECHANICS</td>
+          <td>3</td>
+          <td>THEORY</td>
+          <td><input type="checkbox" align="center"></td>
+        </tr>
+        </table>
+      </fieldset>
 <br>
-<br>
-<label>
-Branch :
-</label>
-<select>
-<option value="Select">Select</option>
-<option value="ECE">ECE</option>
-</select>
-<br>
-<br>
-<label>
-Roll Number :
-</label>
-<input type="text" name="Roll_no" size="6"/>
-<br><br>
-<label>
-Registration Number :
-</label>
-<input type="text" name="Roll_no" size="6"/>
-<br><br>
-<label>
-Gender :
-</label><br>
-<input type="radio" name="male"/> Male
-<input type="radio" name="female"/> Female <br>
-<input type="radio" name="other"/> Other
-<br>
-<br>
-<label>
-Phone :
-</label>
-<input type="text" name="country code"  value="+91" size="2"/>
-<input type="text" name="phone" size="10"/> <br><br>
-<table align=center border="1" width=75% cellspacing=1>
-<tr>
-<th>Course ID</th>
-<th>Course Name</th>
-<th>Credit</th>
-<th>Type</th>
-<th>Select</th>
-</tr>
-<tr>
-  <td>EC351</td>
-  <td>DATA NETWORKS</td>
-  <td>3</td>
-  <td>THEORY</td>
-  <td><input type="checkbox" align="center"></td>
-</tr>
-<tr>
-  <td>EC352</td>
-  <td>DIGITAL SIGNAL PROCESSING</td>
-  <td>3</td>
-  <td>THEORY</td>
-  <td><input type="checkbox" align="center"></td>
-</tr>
-<tr>
-  <td>EC353</td>
-  <td>EMBEDDED AND REAL TIME OPERATING SYSTEMS</td>
-  <td>3</td>
-  <td>THEORY</td>
-  <td><input type="checkbox" align="center"></td>
-</tr>
-<tr>
-<td>EC354</td>
-<td>INFORMATION THEORY AND CODING</td>
-<td>3</td>
-<td>THEORY</td>
-<td><input type="checkbox" align="center"></td>
-</tr>
-<tr>
-<td>EC3564</td>
-<td>WEB TECHNOLOGIES</td>
-<td>3</td>
-<td>THEORY</td>
-<td><input type="checkbox" align="center"></td>
-</tr>
-<tr>
-<td>EC357</td>
-<td>COMMUNICATION SYSTEMS LAB</td>
-<td>2</td>
-<td>LAB</td>
-<td><input type="checkbox" align="center"></td>
-</tr>
-<tr>
-<td>EC358</td>
-<td>DATA NETWORKS LAB</td>
-<td>2</td>
-<td>LAB</td>
-<td><input type="checkbox" align="center"></td>
-</tr>
-<tr>
-  <td>ME390</td>
-  <td>AUTOMOTIVE MECHANICS</td>
-  <td>3</td>
-  <td>THEORY</td>
-  <td><input type="checkbox" align="center"></td>
-</tr>
-</table><br>
 <h1 align="center"><button type="button" name="button" width="2" >Submit</button></h1>
 </form>
 </fieldset>
